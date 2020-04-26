@@ -1,6 +1,110 @@
-.body{
-    background: rgb(155, 153, 155);
+.h1{
+    font-family: 'Inconsolata', monospace;
+}
+.h2{
+    font-family: 'Inconsolata', monospace;
+}
+.h3{
+    font-family: 'Inconsolata', monospace;
+}
+.h4{   
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.h5{
+    font-family: 'Inconsolata', monospace;
+}
+.h6{
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.container{
+    display: inline;
+    box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+    margin: 1px;
+}
+.card-capital{
+    text-align: center;
+    padding: 20px;
+    margin: 110px;
+    margin-top: 30px;
+}
+.covid-show{
+    background-color: rgb(34, 30, 63);
+}
+.main-report{
+    margin-top: 70px;
+}
+.main-box{
+    padding: 3px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(194, 110, 128);
+}
+.cap-box{
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(180, 110, 194);
+}
+.box1{
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(240, 232, 128);
+}
+.box2{
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(128, 225, 228);
+}
+.box3{
+    padding: 1px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(85, 83, 83);
+}
+.informe{
+    text-align: left;
+    padding: 20px;
+    padding-left: 60px;
+}
+.card-default{
+    display: grid;
 }
 .btn-search{
-    background: rgb(140, 94, 170);
+    background-color: #a06894;
+}
+#show{
+    color: white;
+    
+}
+#thailand{
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+}
+#picme{
+    margin-top: 60px;
+    width: 140px;
+    height: 170px;
+    border-image: fill;
+    border-color: white;
+    border-radius: 20%;
+}
+#profile{
+    width: 530px;
+    height: 680px;
+    text-align: center;
+    border-radius: 20%;
+}
+#contact{
+    width: 70px;
+    height: 70px;
+}
+#ig{
+    width: 120px;
+    height: 70px;
 }

@@ -1,19 +1,21 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>COVID-19 Report</title>
+    <title>COVID-19</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-  <body class="body">
+  <body>
       
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e9a6c0;">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: rgb(46, 51, 82);">
+        <a class="navbar-brand" href="#">COVID-19</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,13 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="thailand.html">Thailand</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="survey.html">Survey</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -36,10 +41,150 @@
           </form>
         </div>
       </nav>      
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 main-report">
+            <h1>COVID - 19 Report</h1>
+            <p>Timeseries data on COVID - 19 cases</p>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="container">
+              <div class="row">
+                
+              
+              
+                <div class="col-lg-9 col-sm-12 main-box">    
+              <div class="card-default">
+                <p>Total confirm</p>
+                <h1 id="Confirmed"></h1>
+                <span>person</span>
+              </div>
+                </div> 
+              </div>
+              <div class="row">
+                 
+              <div class="col-lg-3 col-sm-12 cap-box">    
+                            <div class="card-default">
+                              <p>Capitals of effect </p>
+                              <h1 id="cap"></h1>
+                              <span></span>
+                            </div>
+                              </div> 
+
+                <div class="col-lg-3 col-sm-12 box2">
+                  <div class="card-default">
+                    <p>recovered</p>
+                    <h1 id="Recovered"> </h1>
+                    <span>person</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 box3">
+                  <div class="card-default">
+                    <p>Deaths</p>
+                    <h1 id="Death"> </h1>
+                    <span>person</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+            <h2 id="thailand">Covid 19 Situation Report, Thailand</h2>
+
+    <div class="card-capital">
+      <div class="card-deck">
+        <div class="card">
+          <img src="image/bangkok.jpg" class="card-img-top" alt="bangkok.html" onClick="location.href='thailand.html'">
+          <div class="card-body">
+            <h5 class="card-title">Bangkok</h5>
+            <p class="card-text">Bangkok is the capital and most populous city of Thailand and has a population of over eight million, 12.6 percent of the country's population.</p>
+            
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/phuket.jpeg" class="card-img-top" alt="..." onClick="location.href='thailand.html'">
+          <div class="card-body">
+            <h5 class="card-title">Phuket</h5>
+            <p class="card-text">Phuket is one of the southern provinces of Thailand. It consists of the island of Phuket, the country's largest island, and another 32 smaller islands off its coast. It lies off the west coast of Thailand in the Andaman Sea</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/chaimai.jpg" class="card-img-top" alt="..." onClick="location.href='thailand.html'">
+          <div class="card-body">
+            <h5 class="card-title">Chiang Mai</h5>
+            <p class="card-text">Chiang Mai is the largest city in northern Thailand and the capital of Chiang Mai Province. It is 700 km (435 mi) north of Bangkok near the highest mountains in the country.</p>
+          </div>
+        </div>
+      </div>
+
+</div>
 
 
 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 covid-show ">
+            <br><br>
+          <h3 id="show"> The COVID-19 Report : timeseries cases</h3>
+          <br><br>
+        </div></div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-2 covid-show">
+            <br>
+            <br>
+            <br>
+           <h1 id="show">C</h1>
+           <h1 id="show">O</h1>
+           <h1 id="show">V</h1>
+           <h1 id="show">I</h1>
+           <h1 id="show">D</h1>
+           <h1 id="show">19</h1>
+           <br>
+           <h1 id="show">R</h1>
+           <h1 id="show">E</h1>
+           <h1 id="show">P</h1>
+           <h1 id="show">O</h1>
+           <h1 id="show">R</h1>
+           <h1 id="show">T</h1>
+            </div>
+          <div class="col-lg-9 col-sm-10">
+            <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Country</th>
+            </tr>
+          </thead>
+          <tbody id="data">
+          </tbody>
+        </table></div>
+        </div>
+        
+      </div>
+      <div class="row covid-show">
+        <div class="col-lg-3 col-sm-3">
+          <img id="picme" src="image/picme.jpg" alt="">
+        </div>
+        <div class="col-lg-4 col-sm-4 ">
+          <br><br><br>
+          <h3 id="show">Blog by Pawanrat Sangmuang</h3><br>
+          <p id="show">Prince of Songkla University Phuket Campus,
+            Software Engineering </p><br><br><br>
+        </div>
+        <div class="col-lg-5 col-sm-5 refer">
+          <br><br>
+          <h4 id="show">References (data API)</h4>
+          <a id="show" href="https://pomber.github.io/covid19/timeseries.json">https://pomber.github.io/covid19/timeseries.json</a><br>
+          <a id="show" href=https://api.covid19api.com/summary">https://api.covid19api.com/summary</a><br>
+          <a id="show" href="covid19.th-stat.com/api/open/today">covid19.th-stat.com/api/open/today</a><br>
+        </div>
+      </div>
+      
+</div>
 
+  
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
