@@ -24,24 +24,6 @@ $(function () {
         $("#cap").append(total);
     });
 
-        var url1 = "https://api.covid19api.com/summary";
-        $.getJSON( url1, function(result){
-            
-            for (var global in result ){
-              
-            var text1 =`<h1 scope="text">${global.TotalConfirmed}</h1>`;
-            var text2 =`<h1 scope="text">${global.TotalRecovered}</h1>`;
-            var text3 =`<h1 scope="text">${global.TotalDeaths}</h1>`;
-                console.log(result);
-                
-              
- 
-            }
-            
-            $("#confirm").append(text1);
-            $("#recovered").append(text2);
-            $("#death").append(text3);
-        });
 
         let Confirmed = document.getElementById('Confirmed');
         let Death = document.getElementById('Death');
